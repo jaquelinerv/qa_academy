@@ -1,10 +1,10 @@
 import javax.swing.*;
 
 public class Exercicio_06_easy {
-    static int primeiraNota, segundaNota, mediaNotas;
+    static double primeiraNota, segundaNota, mediaNotas;
     public static void main(String[] args) {
-        primeiraNota = Integer.parseInt(JOptionPane.showInputDialog("Sua primeira nota é:"));
-        segundaNota = Integer.parseInt(JOptionPane.showInputDialog("Sua segunda nota é: "));
+        primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Sua primeira nota é:"));
+        segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Sua segunda nota é: "));
         mediaNotas = (primeiraNota + segundaNota) / 2;
 
         if (mediaNotas > 5) {
@@ -13,21 +13,12 @@ public class Exercicio_06_easy {
         if (mediaNotas < 5) {
             System.out.println("Reprovado kkk");
         }
-        if (mediaNotas == 5) {
+        else if (mediaNotas == 5) {
             System.out.println("Ficou pra exame, bobo :P");
         }
     }
 }
 
-// desta forma tbm é correto?
-/*if (mediaNotas > 5) {
-            System.out.println("Aprovado!! :)");
-        } else if (mediaNotas < 5) {
-            System.out.println("Reprovado kkk");
-        }
-        if (mediaNotas == 5) {
-            System.out.println("Ficou pra exame, bobo :P");
-        }*/
 
 /*Inicio do algoritmo
 
