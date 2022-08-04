@@ -1,3 +1,5 @@
+package easy;
+
 import javax.swing.*;
 
 public class Exercicio_03_easy { //Inicio Algoritmo
