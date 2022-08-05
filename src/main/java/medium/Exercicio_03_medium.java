@@ -7,7 +7,7 @@ public class Exercicio_03_medium {
 
     public static void main(String[] args) {
         while (i <= 1000){
-            soma = soma +i;
+            soma = soma + i;
             System.out.println(soma);
             i++;
             if (soma >= 1500){
