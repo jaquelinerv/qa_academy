@@ -1,7 +1,7 @@
 package medium;
 
 public class Exercicio_10_medium {
-//    static int ini = 0, sec = 1, acc = 0, aux =0;
+//    static int ini = 0, sec = 1, acc = 0, aux =0; test
     public static void main(String[] args) {
         int[] f = new int[9];
         f[0] = 0;
