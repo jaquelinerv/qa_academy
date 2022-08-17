@@ -3,15 +3,12 @@ package medium;
 public class Exercicio_10_medium {
 //    static int ini = 0, sec = 1, acc = 0, aux =0; test
     public static void main(String[] args) {
-        int[] f = new int[9];
-        f[0] = 0;
-        f[1] = 1;
+        int[] fibonacci = new int[9];
+        fibonacci[0] = 0;
+        fibonacci[1] = 1;
         for(int i = 2; i < 9; i++) {
-            f[i] = f[i-1] + f[i -2];
-        }
-
-        for (int fibo : f) {
-            System.out.println(fibo);
+            fibonacci[i] = fibonacci[i-1] + fibonacci[i -2];
+            System.out.println(fibonacci[i]);
         }
     }
 
