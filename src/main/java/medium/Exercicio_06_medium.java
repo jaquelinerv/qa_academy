@@ -15,7 +15,7 @@ public class Exercicio_06_medium {
         }
 
 
-        System.out.println("O resultado da sua fatoração é : " + resultadoFatorial);
+        System.out.println("O resultado do seu fatorial é : " + resultadoFatorial);
     }
 
 }

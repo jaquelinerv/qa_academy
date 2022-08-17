@@ -20,7 +20,4 @@ public class Exercicio_05_medium {
 
     }
 
-
-
-
 }

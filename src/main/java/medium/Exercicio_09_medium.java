@@ -1,25 +1,24 @@
 package medium;
+import javax.swing.*;
+import java.sql.SQLOutput;
 
 public class Exercicio_09_medium {
-
+    static int i = 0;
     public static void main(String[] args) {
-        String nomeAlunos [] = new String[5];
-        int numeroAlunos [] = new int[5];
-        nomeAlunos[0] = "Jaqueline";
-        nomeAlunos[1] = "José";
-        nomeAlunos[2] = "Gabriela";
-        nomeAlunos[3] = "João";
-        nomeAlunos[4] = "Renato";
+        String [] nomeAlunos = new String[5];
+        int [] numeroAlunos = new int[5];
 
-        numeroAlunos[0] = 0;
-        numeroAlunos[1] = 1;
-        numeroAlunos[2] = 2;
-        numeroAlunos[3] = 3;
-        numeroAlunos[4] = 4;
-
-        for (int i = 0; i < nomeAlunos.length; i++) {
-            System.out.println("Nome: " + nomeAlunos[i] + " | Posição no vetor: " + numeroAlunos[i]);
+        while(i < 5) {
+            nomeAlunos[i] = JOptionPane.showInputDialog("Digite o nome do aluno: ");
+            numeroAlunos[i] = Integer.parseInt(JOptionPane.showInputDialog("Digite o número do aluno: "));
+            i++;
         }
+        i = 0;
+        while(i < 5){
+            System.out.println("Nome: " + nomeAlunos[i] + " | Posição no vetor: " + numeroAlunos[i]);
+            i++;
+        }
+
     }
 }
 
