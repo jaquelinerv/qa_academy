@@ -6,11 +6,8 @@ public class Exercicio_03_easy { //Inicio Algoritmo
     static int primeiroValor, segundoValor;
 
     public static void main(String[] args) {
-
-
         primeiroValor = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor"));
         segundoValor = Integer.parseInt(JOptionPane.showInputDialog("Digite outro valor"));
-
         System.out.println("Primeiro valor digitado: " + segundoValor);
         System.out.println("Segundo valor digitado: " + primeiroValor);
     }

@@ -9,7 +9,6 @@ public class Exercicio01MetodoComRetorno {
     System.out.println(quartoMetodo());
     System.out.println(quintoMetodo());
     }
-
     public static String primeiroMetodo(){
         String mensagem = "Mensagem do primeiro método";
         return mensagem;
