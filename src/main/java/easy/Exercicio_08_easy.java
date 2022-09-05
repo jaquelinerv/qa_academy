@@ -8,7 +8,6 @@ public class Exercicio_08_easy {
     public static void main(String[] args) {
         salario = Double.parseDouble(JOptionPane.showInputDialog("Digite seu salario: "));
 
-
         if (salario >= 0 && salario <= 1903.98){
             impostoRenda = 0;
             salarioLiquido = salario - impostoRenda;
