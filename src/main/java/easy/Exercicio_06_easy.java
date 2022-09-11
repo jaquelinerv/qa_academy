@@ -3,7 +3,24 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio_06_easy {
-    static double primeiraNota, segundaNota, mediaNotas;
+
+    public String verificaAprovacao(double primeiraNota, double segundaNota) {
+        double mediaNotas;
+        mediaNotas = (primeiraNota + segundaNota) / 2;
+
+        if (mediaNotas > 5) {
+           return("Aprovado!! :)");
+        }
+        else if (mediaNotas < 5) {
+            return("Reprovado kkk");
+        } else {
+            return("Ficou pra exame, bobo :P");
+        }
+    }
+}
+//tem que ser public String pq retorna uma string
+
+   /* static double primeiraNota, segundaNota, mediaNotas;
     public static void main(String[] args) {
         primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Sua primeira nota é:"));
         segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Sua segunda nota é: "));
@@ -18,8 +35,8 @@ public class Exercicio_06_easy {
         else if (mediaNotas == 5) {
             System.out.println("Ficou pra exame, bobo :P");
         }
-    }
-}
+    }*/
+
 
 
 /*Inicio do algoritmo
