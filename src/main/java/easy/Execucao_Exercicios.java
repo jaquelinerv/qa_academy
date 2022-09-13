@@ -86,7 +86,7 @@ public class Execucao_Exercicios {
             Exercicio_11_easy ex11_easy = new Exercicio_11_easy();
             System.out.println("O total somado é: " + ex11_easy.somaAlgoritmo(numeroDigitado));
         }
-        else {
+        else if(selecionaExercicio > 11) {
             System.out.println("Esse exercicio ainda não existe");
         }
 
