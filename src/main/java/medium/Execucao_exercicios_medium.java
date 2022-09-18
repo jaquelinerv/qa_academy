@@ -22,8 +22,6 @@ public class Execucao_exercicios_medium {
             System.out.println("O Valor investido foi de: " + df.format(valorInvestimento));
             System.out.println("O valor final do investimento  após 10 anos (5% a.a) é: " + df.format(exe02m.retornaValorInvestimento(valorInvestimento)));
             System.out.println("O recebimento de juros foi de: " + df.format (exe02m.calculaValorTotalInvestimento(valorInvestimento, valorJuros)));
-
-
         }
     }
 }
